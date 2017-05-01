@@ -8,3 +8,5 @@ This project is experimental. A mini app which gets few infromation about the bo
   - Follows John Papa Style guide.
   - Multi language support(German, English and Spanish)
   - UIRouter
+  - Bootstrap
+  - Gulp
