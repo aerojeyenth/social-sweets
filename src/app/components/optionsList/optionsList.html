@@ -1,0 +1,21 @@
+<div class="row">
+  <!--Title-->
+  <div class="col-sm-4">
+    <h4>{{title | translate}}</h4>
+  </div>
+
+
+  <!--Image or Options Box-->
+  <div class="col-sm-8">
+    <div class="form-group box-radio">
+      <div class="radio-btn" ng-repeat="option in list">
+        <input type="radio" name="{{name | translate}}" id="{{name | translate}}-{{option.id}}" ng-value="option.value"
+               ng-model="value">
+        <label for="{{name | translate}}-{{option.id}}" ng-if="!option.imageUrl">{{option.name | translate}}</label>
+        <label for="{{name | translate}}-{{option.id}}" ng-if="option.imageUrl"><img ng-src="{{option.imageUrl}}"
+                                                                                     alt="none"></label>
+      </div>
+    </div>
+  </div>
+
+</div>

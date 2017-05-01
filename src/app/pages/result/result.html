@@ -1,0 +1,36 @@
+<div class="container">
+
+  <div class="row">
+    <!--Result Lead-->
+    <div class="col-sm-12">
+      <div class="text-center">
+        <h1 translate="{{vm.resultLead}}"></h1>
+        <camel-counter number="{{vm.value}}"></camel-counter>
+        <h1>{{ "COMMON.CAMELS" | translate}}</h1>
+      </div>
+    </div>
+    <!--Result Lead-->
+  </div>
+  <hr>
+  <div class="row">
+    <!--Social Sharing-->
+    <div class="col-sm-6 col-sm-offset-3 text-center">
+      <button class="btn btn-primary">{{ "COMMON.SOCIAL.FACEBOOK" | translate}}</button>
+      <button class="btn btn-primary">{{ "COMMON.SOCIAL.TWITTER" | translate}}</button>
+      <button class="btn btn-primary">{{ "COMMON.SOCIAL.WHATSAPP" | translate}}</button>
+    </div>
+    <!--Social Sharing-->
+  </div>
+
+  <hr>
+
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="text-center">
+        <button ui-sref="home" class="btn btn-lg btn-primary">{{"COMMON.CALCULATE_AGAIN" | translate}}</button>
+      </div>
+    </div>
+  </div>
+
+
+</div>
