@@ -28,11 +28,14 @@ $icon-font-path: "../../bootstrap-sass/assets/fonts/bootstrap/";
 }
 
 .header {
-  background: url('http://kamelrechner.eu/img/more-news-bg.jpg') top center no-repeat;
+  background: url('../assets/images/desert-bg.jpg') top center no-repeat;
   h1 {
-    font-size: 2.5rem;
+
     position: absolute;
     padding-top: 10px;
+    @media (max-width: 750px){
+      font-size: 2.5rem;
+    }
   }
 }
 
@@ -71,14 +74,24 @@ span {
 }
 
 .btn {
-  background-color: #e8972c;
-  border-color: #e8972c;
-  &:hover {
-    background-color: #e89f3f;
-    border-color: #e8972c;
-  }
+  border:none;
 }
 
+.social-btn {
+  margin: 5px;
+}
+
+.fb-btn {
+  background-color: #4267b2;
+}
+
+.twt-btn {
+  background-color: #00cdff;
+}
+
+.whtsap-btn {
+  background-color: #25d366;
+}
 
 .box-radio {
 
