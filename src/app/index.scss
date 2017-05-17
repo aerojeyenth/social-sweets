@@ -30,11 +30,9 @@ $icon-font-path: "../../bootstrap-sass/assets/fonts/bootstrap/";
 .header {
   background: url('http://kamelrechner.eu/img/more-news-bg.jpg') top center no-repeat;
   h1 {
-    font-size: 46px;
+    font-size: 2.5rem;
     position: absolute;
-    left: 300px;
-    top: 50%;
-    transform: translateY(-50%);
+    padding-top: 10px;
   }
 }
 
@@ -45,15 +43,7 @@ $icon-font-path: "../../bootstrap-sass/assets/fonts/bootstrap/";
 }
 
 .logo img {
-
-  @media (min-width: 750px){
-    position: absolute;
-    width: 128px;
-    height: auto;
-    top: 50%;
-    margin-top: -55px;
-  }
-
+  max-width: 156px;
 }
 
 .list-group-item {
